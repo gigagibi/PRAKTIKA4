@@ -1,9 +1,11 @@
 package com.company;
 
 public class Square extends Shape {
-    Square(double side)
+    private double side;
+    Square(double side, String color, boolean filled)
     {
-        super(side, side, "Black", false);
+        super(color, filled);
+        this.side = side
     }
 
     Square(double side, String color, boolean filled)
