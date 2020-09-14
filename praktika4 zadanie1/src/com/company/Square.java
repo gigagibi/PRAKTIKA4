@@ -20,8 +20,7 @@ public class Square extends Shape {
 
     public void setSide(double side)
     {
-        this.length = side;
-        this.width = side;
+        this.side = side;
     }
 
     @Override
